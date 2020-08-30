@@ -1,0 +1,2135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#articleDetailhead {
+  height: 850px;
+}
+
+#articleDetailhead .Headertop {
+  width: 100%;
+  height: 32px;
+  background-color: #f7f7f7;
+}
+#articleDetailhead .Headertop .Headertopmenu {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  align-items: center;
+}
+
+#articleDetailhead .Headertop h1 {
+  font-size: 11px;
+  color: #272727;
+  font-weight: bold;
+  margin: 0;
+}
+
+#articleDetailhead .Headertop ul {
+  margin: 0;
+  padding: 5px;
+}
+
+#articleDetailhead .Headertop ul li {
+  list-style: none;
+  font-size: 11px;
+  height: 15px;
+  display: inline-block;
+  border-left: solid 1px #676767;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.4;
+  vertical-align: baseline;
+}
+
+#articleDetailhead .Headertop ul li:first-child {
+  border-left: none;
+}
+
+#articleDetailhead .Headertop ul li:last-child {
+  border-left: none;
+  height: 32px;
+}
+#articleDetailhead .Headertop ul li a {
+  font-size: 11px;
+  color: #676767;
+  text-decoration: none;
+  padding: 5px 8px 3px;
+}
+
+#articleDetailhead .Headertop ul li:last-child a {
+  color: #000066;
+  background-color: #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#articleDetailhead .Headertop ul li:last-child a i {
+  display: inline-block;
+  background-image: url("../images/nkou-icon.png");
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+#articleDetailhead .Headertop ul li:hover {
+  text-decoration: underline;
+  background-color: #f7f7f7;
+  padding-bottom: 1px;
+}
+
+/* ------N高ロゴ、シェアボタン------ */
+
+#articleDetailhead .Headermiddle {
+  width: 1040px;
+  height: 53px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ------ヘッダー画像------ */
+
+#articleDetailhead .Headermiddle .Headermiddlelogo img {
+  width: 211px;
+  height: 45px;
+}
+
+#articleDetailhead .Headermiddle .Headertel img {
+  width: 220px;
+  height: 30px;
+}
+
+#articleDetailhead .Headermiddle .Headershare img {
+  width: 30px;
+  height: 30px;
+}
+
+#articleDetailhead .Headermiddle .Headertel {
+  display: inline;
+  margin-left: auto;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+#articleDetailhead .Headermiddle .Headertel p {
+  width: 210px;
+  height: 15px;
+  font-size: 11px;
+  letter-spacing: 0.4pt;
+  font-style: normal;
+  color: #8d959c;
+  padding: 0 0 0 31px;
+  margin: 0;
+}
+
+#articleDetailhead .Headermiddle .Headershare {
+  display: inline;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding: 15px 0 0 0;
+  text-align: right;
+}
+
+#articleDetailhead .Headermiddle .Headershare .FB:hover {
+  opacity: 0.7;
+}
+
+#articleDetailhead .Headermiddle .Headershare .TW:hover {
+  opacity: 0.7;
+}
+
+#articleDetailhead .Headermiddle .Headershare .YT:hover {
+  opacity: 0.7;
+}
+
+#articleDetailhead .Headerbottom {
+  width: 1040px;
+  height: 60px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#articleDetailhead .Headerbottom-right ul {
+  list-style: none;
+  float: right;
+}
+
+#articleDetailhead .Headerbottom-right ul li {
+  display: inline-block;
+  padding: 0 0 0 10px;
+}
+
+#articleDetailhead .Headerbottom-right ul li a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #000066;
+  display: block;
+  font-weight: bold;
+  padding: 9px 10px 8px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #1f286f;
+  position: relative;
+}
+
+.btn:hover {
+  background-color: #1f286f;
+  color: white;
+}
+
+.btn:after {
+  content: "\00203A";
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  right: 10px;
+  margin-top: -15px;
+}
+
+.btn:hover::after {
+  background-color: #1f286f;
+  color: white;
+}
+
+#articleDetailhead .Headerbottom-left ul {
+  float: left;
+}
+
+#articleDetailhead .Headerbottom-left ul li {
+  width: 160px;
+  height: 40px;
+  display: inline-block;
+  font-family: sans-serif;
+  text-align: center;
+  border-left: solid 1px #dcdddd;
+  letter-spacing: 2px;
+}
+
+#articleDetailhead .Headerbottom-left ul li .letter:first-child {
+  width: 160px;
+  height: 40px;
+  display: inline-block;
+  font-family: sans-serif;
+  text-align: center;
+  border-left: solid 1px #1f286f;
+  letter-spacing: 2px;
+}
+
+#articleDetailhead .Headerbottom-left ul li a {
+  text-decoration: none;
+  color: #272727;
+}
+
+#articleDetailhead .Headerbottom-left ul li:last-child {
+  border-right: solid 1px #dcdddd;
+}
+
+#articleDetailhead .Headerbottom-left .letter {
+  width: 76px;
+  font-size: 6px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #dcdddd;
+}
+
+#articleDetailhead .Headerbottom-left .list {
+  width: 76px;
+  font-size: 6px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #1f286f;
+}
+
+#articleDetailhead .Headerbottom-left ul li .letter:hover {
+  color: #1f286f;
+}
+
+/* ------ナビゲーション------ */
+
+#articleDetailhead .Headernavi {
+  width: 100%;
+  height: auto;
+}
+
+#articleDetailhead .Headernavi .Navigation {
+  width: 100%;
+  background: #181836;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+/* ------吹き出し------ */
+
+#articleDetailhead .Headernavi .Navigation::before {
+  content: "";
+  position: absolute;
+  left: 270px;
+  top: -7px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid #181836;
+  border-left: 5px solid transparent;
+}
+
+#articleDetailhead .Headernavi .Navigation ul {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 10px 10px 4px;
+  height: 74px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+}
+
+#articleDetailhead .Headernavi .Navigation ul li {
+  width: auto;
+  height: 33px;
+  color: #1b0202;
+  display: flex;
+  margin: 0 0 0 7px;
+  font-size: 14px;
+  font-family: sans-serif;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+#articleDetailhead .Headernavi .Navigation ul li a {
+  width: auto;
+  height: 33px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 7px;
+}
+
+/* ------ナビゲーション 擬似要素------ */
+
+#articleDetailhead .Headernavi .Navigation ul li:not(:first-child):before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/backslash.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  color: #7d7d7d;
+  right: 13px;
+  position: relative;
+}
+
+#articleDetailhead .Headernavi .Navigation ul li a:hover {
+  background-color: #ffffff;
+  color: #1f286f;
+  top: 50px;
+}
+
+#articleDetailhead .Heddermainpic {
+  border-bottom: solid 1px #ffffff;
+  position: relative;
+  z-index: 3;
+  display: block;
+  top: 70px;
+  width: 200px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+#articleDetailhead .Heddermainpic h1 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: normal;
+  width: 400px;
+  right: 70px;
+  margin: 0 auto;
+  letter-spacing: 0.3em;
+  position: relative;
+  z-index: 4;
+}
+
+.About {
+  position: relative;
+  display: block;
+  width: 93px;
+  height: 13px;
+  z-index: 5;
+  margin: 0 auto;
+  top: 100px;
+}
+
+.School {
+  width: 100%;
+  height: 580px;
+  bottom: 170px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.topicpath {
+  width: 100%;
+  bottom: 170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.topicpath ul {
+  width: auto;
+  list-style: none;
+  text-align: center;
+  border-bottom: dotted 1px #999999;
+  padding-right: 660px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+
+.topicpath ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+.topicpath ul li:last-child:before {
+  content: "\003e";
+  display: inline-block;
+  padding-right: 4px;
+}
+
+.topicpath ul li a {
+  text-decoration: none;
+  color: #36538d;
+}
+
+.topicpath ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ------メイン------ */
+
+#articleDetailbody .mainVisualtitle h2 {
+  width: 1040px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: normal;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: block;
+  position: relative;
+  letter-spacing: 0.2em;
+  color: #272727;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainVisualtext h3 {
+  width: 800px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: block;
+  position: relative;
+  color: #272727;
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+#articleDetailbody .mainVisualtext h3:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -20%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainVisualtext p {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 43px;
+  font-size: 16px;
+  font-weight: normal;
+  width: 640px;
+  letter-spacing: 0.6px;
+  line-height: 1.7;
+  margin-bottom: 70px;
+}
+
+/* ------教育方針------ */
+
+#articleDetailbody .mainVisualinfo {
+  width: 100%;
+}
+
+#articleDetailbody .mainVisualinfo h1 {
+  width: 1040px;
+  text-align: left;
+  margin: 0 auto;
+  letter-spacing: 0.6px;
+  font-size: 26px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #272727;
+  position: relative;
+}
+
+#articleDetailbody .mainVisualinfo h1:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: inline-block;
+  width: 270px;
+  height: 2px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-193%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainVisualinfo ul {
+  width: 1040px;
+  margin: 50px auto 100px;
+  list-style: none;
+  text-align: left;
+}
+#articleDetailbody .mainVisualinfo ul span {
+  font-size: 24px;
+  height: 40px;
+  border-right: solid 1px #272727;
+  padding: 15px 15px 15px 0;
+  margin: 0 15px 0 0;
+  vertical-align: center;
+}
+
+#articleDetailbody .mainVisualinfo ul li {
+  font-size: 19px;
+  font-weight: 200;
+  height: 53px;
+  margin-bottom: 30px;
+  letter-spacing: 0.6px;
+}
+
+#articleDetailbody .mainVisualinfo .triangle {
+  position: relative;
+  float: right;
+  width: 630px;
+  right: 60px;
+  bottom: 340px;
+}
+
+#articleDetailbody .mainTextbox {
+  width: 650px;
+  border: solid 1px #dddddd;
+  position: relative;
+  margin: 0 auto;
+  padding: 30px;
+  background: #f7f7f7;
+}
+
+#articleDetailbody .mainTextbox a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailbody .mainTextbox a:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#articleDetailbody .mainTextbox a .mainTextlist {
+  width: 230px;
+  float: right;
+  position: relative;
+}
+
+#articleDetailbody .mainTextbox a .mainTextlist h3 {
+  font-size: 22px;
+  width: 423px;
+  margin: 0 0 10px;
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+#articleDetailbody .mainTextbox .mainTextlist p {
+  width: 423px;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 3px;
+  padding-left: 20px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin: 0 0 30px;
+}
+
+.mainread {
+  left: 100px;
+}
+#articleDetailcard .mainTextbox a .mainImage {
+  width: 164px;
+  float: left;
+}
+
+.Read {
+  width: 70px;
+  height: 13px;
+  padding-left: 20px;
+}
+.mainread:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/cheveron-right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  position: relative;
+  left: 20px;
+}
+
+.Read:hover {
+  opacity: 0.7;
+}
+.Card:hover {
+  opacity: 0.7;
+}
+
+/* ------N高の魅力------ */
+
+#articleDetailbody .mainTextgraph {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+#articleDetailbody .mainTextgraph h2 {
+  width: 1040px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 100px;
+  letter-spacing: 0.6px;
+  font-size: 26px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #272727;
+  position: relative;
+}
+
+#articleDetailbody .mainTextgraph h2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: inline-block;
+  width: 270px;
+  height: 2px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-193%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainTextgraph h3 {
+  width: 490px;
+  height: 115px;
+  margin-left: 192.5px;
+  text-align: left;
+  line-height: 2;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  display: block;
+  font-weight: normal;
+  border-bottom: solid 1px #272727;
+}
+
+#articleDetailbody .mainTextgraph p {
+  width: 490px;
+  height: 115px;
+  padding: 0;
+  margin-left: 192.5px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  letter-spacing: 0.6px;
+  font-size: 16px;
+  display: block;
+  font-weight: normal;
+}
+
+#articleDetailbody .mainTextgraph .small-p {
+  font-size: 12px;
+}
+
+.Schoolgraph {
+  float: right;
+  position: relative;
+  bottom: 400px;
+  right: 200px;
+}
+
+#articleDetailbody .mainTextclass {
+  margin-bottom: 200px;
+  position: relative;
+}
+#articleDetailbody .mainTextclass h3 {
+  width: 490px;
+  height: 115px;
+  margin-left: 192.5px;
+  text-align: left;
+  line-height: 2;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  display: block;
+  font-weight: normal;
+  border-bottom: solid 1px #272727;
+}
+
+#articleDetailbody .mainTextclass p {
+  width: 490px;
+  height: 115px;
+  padding: 0;
+  margin-left: 192.5px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  letter-spacing: 0.6px;
+  font-size: 16px;
+  display: block;
+  font-weight: normal;
+}
+
+.Schoolclass {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+/* ------メインベーシックプログラム------ */
+
+#articleDetailbody .mainBasicprogram {
+  width: 100%;
+  height: 1500px;
+  background: #f7f7f7;
+  display: inline-block;
+}
+
+#articleDetailbody .mainBasicprogram .Programtitle h2 {
+  width: 1040px;
+  margin: 0 auto;
+  display: block;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogram .Programtitle h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainBasicprogram p {
+  width: 1040px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+}
+
+#articleDetailbody .mainBasicprogram .Programimage {
+  top: 100px;
+  left: 200px;
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  float: left;
+}
+
+#articleDetailbody .mainBasicprogram .Programlist {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-left: auto;
+  top: 100px;
+  right: 180px;
+}
+
+#articleDetailbody .mainBasicprogram .Programlist a {
+  color: inherit;
+}
+
+#articleDetailbody .mainBasicprogram .Programlist:hover {
+  opacity: 0.7;
+}
+
+.Basicprogram {
+  border: 1px solid #272727;
+  width: 80px;
+  height: 14px;
+  background: #272727;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 5px 5px 0;
+}
+
+#articleDetailbody .mainBasicprogram .Programlist h2 {
+  position: relative;
+  font-size: 22px;
+  width: 285px;
+  height: 117px;
+  float: right;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#articleDetailbody .mainBasicprogram .Programlist h3 {
+  position: relative;
+  width: 285px;
+  height: 140px;
+  font-size: 16px;
+  float: right;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#articleDetailbody .mainBasicprogram .Programlist p {
+  position: relative;
+  width: 285px;
+  height: 57px;
+  font-size: 8px;
+  float: right;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.Readmore {
+  position: relative;
+  height: 13px;
+}
+
+.Readmore:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/cheveron-right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogram .Programbeach {
+  top: 200px;
+  right: 200px;
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  float: right;
+}
+
+#articleDetailbody .mainBasicprogram .Programinfo {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-right: auto;
+  top: 200px;
+  left: 180px;
+}
+
+#articleDetailbody .mainBasicprogram .Programinfo a {
+  color: inherit;
+}
+
+#articleDetailbody .mainBasicprogram .Programinfo:hover {
+  opacity: 0.7;
+}
+
+/* ------ベーシックプログラム画像------ */
+
+.Basicprogram {
+  border: 1px solid #272727;
+  width: 80px;
+  height: 14px;
+  background: #1c1c1c;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 5px 5px 0;
+}
+
+#articleDetailbody .mainBasicprogram .Programinfo h2 {
+  position: relative;
+  font-size: 22px;
+  width: 285px;
+  height: 117px;
+  float: left;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+#articleDetailbody .mainBasicprogram .Programinfo h3 {
+  position: relative;
+  width: 285px;
+  font-size: 13px;
+  float: left;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#articleDetailbody .mainBasicprogram .Programinfo p {
+  position: relative;
+  width: 285px;
+  font-size: 16px;
+  float: left;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* ------アドバンスドプログラム------ */
+
+#articleDetailbody .mainAdvancedprogram {
+  width: 100%;
+  display: inline-block;
+}
+
+#articleDetailbody .mainAdvancedprogram .Advancedtitle h2 {
+  width: 1040px;
+  display: block;
+  margin: 0 auto;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#articleDetailbody .mainAdvancedprogram .Advancedtitle h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainAdvancedprogram .Advancedtitle p {
+  width: 1040px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+/* ------アドバンスクラス------ */
+
+#articleDetailbody .Advancedimage {
+  width: 100%;
+}
+
+#articleDetailbody .Advancedimage .Advancedonlineclass {
+  position: relative;
+  width: 720px;
+  height: 500px;
+  left: 200px;
+  float: left;
+  margin-bottom: 100px;
+}
+
+#articleDetailbody .Advancedimage .Advancedlist {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  float: right;
+  right: 180px;
+}
+
+#articleDetailbody .Advancedimage .Advancedlist a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#articleDetailbody .Advancedimage .Advancedlist:hover {
+  opacity: 0.7;
+}
+
+.Advancedprogram {
+  width: 100px;
+  height: 14px;
+  background: #1c1c1c;
+  position: relative;
+  padding: 3px 10px;
+  margin-bottom: 20px;
+}
+
+#articleDetailbody .Advancedimage .Advancedlist h2 {
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .Advancedimage .Advancedlist p {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* ------ボード------ */
+
+#articleDetailbody .Advancedimage .Advancedclass {
+  position: relative;
+  width: 720px;
+  height: 500px;
+  right: 200px;
+  float: right;
+  margin-bottom: 100px;
+}
+
+#articleDetailbody .Advancedimage .Advancedtest {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  float: left;
+  left: 180px;
+}
+
+#articleDetailbody .Advancedimage .Advancedtest a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#articleDetailbody .Advancedimage .Advancedtest:hover {
+  opacity: 0.7;
+}
+
+#articleDetailbody .Advancedimage .Advancedtest:hover {
+  opacity: 0.7;
+}
+
+.Advancedprogram {
+  width: 100px;
+  height: 14px;
+  background: #1c1c1c;
+  position: relative;
+  padding: 3px 10px;
+  margin-bottom: 20px;
+}
+
+#articleDetailbody .Advancedimage .Advancedtest h2 {
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .Advancedimage .Advancedtest p {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* ------メインベーシックプログラムツール------ */
+
+#articleDetailbody .mainBasicprogramtool {
+  width: 100%;
+  height: 850px;
+  background: #f7f7f7;
+  display: inline-block;
+  border-top: solid 1px #e2e2e2;
+  border-bottom: solid 1px #e2e2e2;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtitle h2 {
+  width: 1060px;
+  margin: 0 auto;
+  display: block;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtitle h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtool {
+  top: 80px;
+  right: 200px;
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  float: right;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-right: auto;
+  top: 80px;
+  left: 180px;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo p {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo:hover {
+  opacity: 0.7;
+}
+
+/* ------メインベーシックフェスティバル------ */
+
+#articleDetailbody .mainBasicprogramevent {
+  width: 100%;
+  height: 850px;
+  display: inline-block;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programtitle h2 {
+  width: 1060px;
+  margin: 0 auto;
+  display: block;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programtitle h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programfestival {
+  top: 80px;
+  left: 200px;
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  float: left;
+  margin-bottom: 300px;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programeventinfo {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-left: auto;
+  top: 80px;
+  right: 180px;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programeventinfo h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programeventinfo p {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programeventinfo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailbody .mainBasicprogramevent .Programeventinfo:hover {
+  opacity: 0.7;
+}
+
+#articleDetailbody .mainBasicprogramtool {
+  width: 100%;
+  height: 850px;
+  background: #f7f7f7;
+  display: inline-block;
+  border-top: solid 1px #e2e2e2;
+  border-bottom: solid 1px #e2e2e2;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtitle h2 {
+  width: 1060px;
+  margin: 0 auto;
+  display: block;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtitle h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtool {
+  top: 80px;
+  right: 200px;
+  width: 720px;
+  height: 500px;
+  position: relative;
+  float: right;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-right: auto;
+  top: 80px;
+  left: 180px;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo p {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.mainBasicprogramcourse .Programcourse {
+  top: 80px;
+  left: 200px;
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  float: left;
+  margin-bottom: 300px;
+}
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailbody .mainBasicprogramtool .Programtoolinfo:hover {
+  opacity: 0.7;
+}
+
+/* ------メインベーシックプログラムコース------ */
+
+#articleDetailbody .mainBasicprogramenter {
+  background: #f7f7f7;
+  height: 1400px;
+  border-top: solid 1px #e2e2e2;
+  border-bottom: solid 1px #e2e2e2;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programtitle h2 {
+  width: 1060px;
+  margin: 0 auto;
+  display: block;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programtitle h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+/* ------画像------ */
+
+#articleDetailbody .mainBasicprogramenter .Programenter {
+  top: 80px;
+  right: 200px;
+  width: 720px;
+  height: 500px;
+  position: relative;
+  float: right;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programenterinfo {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-right: auto;
+  top: 80px;
+  left: 180px;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programenterinfo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programenterinfo:hover {
+  opacity: 0.7;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programenterinfo h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programenterinfo p {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programcourse {
+  top: 150px;
+  left: 250px;
+  width: 720px;
+  height: 500px;
+  position: relative;
+  float: left;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programcourseinfo {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-right: auto;
+  top: 150px;
+  right: 150px;
+  float: right;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programcourseinfo:hover {
+  opacity: 0.7;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programcourseinfo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programcourseinfo h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .mainBasicprogramenter .Programcourseinfo p {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+/* ------メインスクールパートナー------ */
+
+#articleDetailbody .mainSchoolpartner {
+  height: 1300px;
+}
+#articleDetailbody .mainSchoolpartner h2 {
+  width: 1060px;
+  margin: 0 auto;
+  display: block;
+  font-size: 33px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 70px 10px 1px;
+}
+
+#articleDetailbody .mainSchoolpartner h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#articleDetailbody .Schoolpartnerimage {
+  top: 80px;
+  right: 200px;
+  width: 720px;
+  height: 500px;
+  position: relative;
+  float: right;
+}
+
+#articleDetailbody .Schoolpartnerinfo {
+  position: relative;
+  width: 285px;
+  height: 450px;
+  margin-right: auto;
+  top: 80px;
+  left: 180px;
+}
+
+#articleDetailbody .Schoolpartnerinfo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailbody .Schoolpartnerinfo:hover {
+  opacity: 0.7;
+}
+
+#articleDetailbody .Schoolpartnerinfo h3 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 22px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+#articleDetailbody .Schoolpartnerinfo p {
+  font-weight: normal;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+#articleDetailbody .Schoolexplain {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  margin: 100px 0;
+}
+
+#articleDetailbody .Schoolexplain:hover {
+  opacity: 0.7;
+}
+
+/* ------ボックス要素------ */
+
+#articleDetailbody .mainScoolmessage {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border-top: solid 1px #e2e2e2;
+}
+
+#articleDetailbody .mainScoolmessage ul {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 70px 0 80px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#articleDetailbody .mainScoolmessage ul li {
+  margin-bottom: 30px;
+  width: 490px;
+  padding: 5px;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.3;
+  letter-spacing: 0.8px;
+  background: url(../images/bg_diagno.png);
+}
+
+#articleDetailbody .mainScoolmessage ul li:hover {
+  opacity: 0.7;
+}
+
+#articleDetailbody .mainScoolmessage ul li a {
+  width: 490px;
+  text-decoration: none;
+  color: inherit;
+  padding: 30px 40px 10px 20px;
+  background-color: #ffffff;
+  align-items: center;
+  position: relative;
+}
+
+#articleDetailbody .mainScoolmessage ul li a:after {
+  content: "\00203A";
+  position: absolute;
+  font-size: 25px;
+  top: 30%;
+  right: 30px;
+  margin-top: 15px;
+}
+
+#articleDetailbody .mainScoolmessage ul li:hover::after {
+  opacity: 0.7;
+}
+#articleDetailbody .mainScoolmessage ul li .detail {
+  width: 490px;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+}
+
+#articleDetailfoot .footertop {
+  width: 100%;
+  height: 220px;
+  color: #f7f7f7;
+  background: url(../images/background_just_n.png);
+}
+
+#articleDetailfoot .footertop p {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.2em;
+  padding: 30px 30px;
+}
+
+#articleDetailfoot .footertop .book,
+.balloon {
+  width: 260px;
+  height: 50px;
+  color: #272727;
+  font-size: 18px;
+  text-align: center;
+  padding: 14px 24px 9px 18px;
+  border: 1px solid #272727;
+  background-color: #f7f7f7;
+  vertical-align: center;
+  box-sizing: border-box;
+  margin-left: 430px;
+  margin-bottom: 10px;
+  list-style: none;
+  letter-spacing: 0.6px;
+}
+
+#articleDetailfoot .footertop ul li:hover {
+  opacity: 0.7;
+}
+#articleDetailfoot .footertop ul li a {
+  color: inherit;
+}
+
+#articleDetailfoot .footertop .book:before {
+  content: "";
+  display: inline-block;
+  width: 29px;
+  height: 27px;
+  background-image: url("../images/icon_book.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  position: relative;
+  padding-right: 20px;
+}
+
+#articleDetailfoot .footertop .balloon:before {
+  content: "";
+  display: inline-block;
+  width: 29px;
+  height: 27px;
+  background-image: url("../images/icon_balloon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  position: relative;
+  padding-right: 20px;
+}
+
+#articleDetailfoot .footertop li a {
+  text-decoration: none;
+}
+
+#articleDetailfoot .footertop ul li:after {
+  content: "\00203A";
+  position: relative;
+  font-size: 25px;
+  right: -20px;
+  margin-top: 15px;
+}
+
+#articleDetailfoot .footertop .footertel {
+  width: 250px;
+  height: 60px;
+  position: relative;
+  float: right;
+  right: 430px;
+  bottom: 110px;
+}
+
+#articleDetailfoot .footertop .footertel img {
+  width: 250px;
+  height: 28px;
+}
+
+#articleDetailfoot .footertop .footertel h2 {
+  color: #f7f7f7;
+  font-size: 12px;
+  padding: 0;
+  padding-top: 5px;
+  padding-left: 60px;
+  font-weight: normal;
+}
+
+#articleDetailfoot .footertop .footertel p {
+  font-size: 13px;
+  border: 1px solid #f7f7f7;
+  width: 210px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 30px;
+  box-sizing: border-box;
+  padding: 15px 10px 8px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#articleDetailfoot .footertop .footertel p a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+#articleDetailfoot .footertop .footertel p a:hover {
+  text-decoration: underline;
+}
+
+#articleDetailfoot .footertop .footertel p a:after {
+  content: "\00203A";
+  position: absolute;
+  font-size: 25px;
+  right: 15px;
+  margin-top: -10px;
+}
+
+#articleDetailfoot .footertop .footertel img:hover {
+  opacity: 0.7;
+}
+
+#articleDetailfoot .footerNewsblog {
+  width: 100%;
+  display: inline-block;
+}
+
+#articleDetailfoot .footerNewsblog ul {
+  width: 550px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#articleDetailfoot .footerNewsblog ul li {
+  color: #272727;
+  width: 250px;
+  height: auto;
+  border: solid 1px #272727;
+  position: relative;
+}
+
+#articleDetailfoot .footerNewsblog ul li a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 2;
+  display: block;
+  padding: 0.5em;
+}
+
+#articleDetailfoot .footerNewsblog ul li a:after {
+  content: "\00203A";
+  position: absolute;
+  font-size: 25px;
+  right: 15px;
+  margin-top: -15px;
+}
+
+#articleDetailfoot .footerNewsblog ul li a:hover {
+  background-color: #272727;
+  color: white;
+}
+
+#articleDetailfoot .footermiddle {
+  width: 100%;
+}
+
+#articleDetailfoot .footermiddle h2 {
+  width: 1040px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.15;
+  margin: 40px auto 30px;
+  padding-top: 40px;
+  letter-spacing: 0.4pt;
+  border-top: dotted 1px #d9d9d9;
+}
+
+#articleDetailfoot .footermiddle ul {
+  width: 1040px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+  padding-bottom: 70px;
+}
+
+#articleDetailfoot .footermiddle ul li {
+  width: 480px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  box-sizing: border-box;
+  padding: 5px;
+  background: url(../images/bg_diagno.png);
+}
+
+#articleDetailfoot .footermiddle ul li:hover {
+  opacity: 0.7;
+}
+#articleDetailfoot .footermiddle .Progressive {
+  background: #ffffff;
+}
+
+#articleDetailfoot .footermiddle .Programming {
+  background: #ffffff;
+}
+
+#articleDetailfoot .footermiddle ul li a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+#articleDetailfoot .footermiddle ul li span {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 0.5pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#articleDetailfoot .footermiddle .nkou-tyutobu {
+  padding-top: 20px;
+  width: 135px;
+  height: 35px;
+}
+
+#articleDetailfoot .footermiddle .code-labo {
+  padding-top: 20px;
+  width: 170px;
+  height: 35px;
+}
+
+#articleDetailfoot .footermiddle ul li:after {
+  content: "\00203A";
+  position: absolute;
+  font-size: 25px;
+  top: 20%;
+  right: 20px;
+  margin-top: 15px;
+}
+
+#articleDetailfoot .footerGlovalnavi {
+  background: #f8f8f8;
+  height: 1000px;
+  padding-top: 60px;
+}
+
+#articleDetailfoot .footerBottomnavi ul {
+  width: 1060px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#articleDetailfoot .footerBottomnavi ul li {
+  display: inline-block;
+  border-left: solid 1px #272727;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#articleDetailfoot .footerBottomnavi ul li:first-child {
+  border-left: none;
+}
+
+#articleDetailfoot .footerBottomnavi ul li a {
+  text-decoration: none;
+  color: #000066;
+  font-weight: bold;
+}
+
+#articleDetailfoot .footerBottomnavi ul li a:hover {
+  text-decoration: underline;
+}
+.pagetop {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  float: right;
+  right: 230px;
+  bottom: 50px;
+}
+
+#articleDetailfoot .footerBottominfo {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+#articleDetailfoot .footerBottommenu {
+  height: auto;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.advanced {
+  font-size: 11px;
+  font-weight: normal;
+}
+
+#articleDetailfoot .footerBottommenu ul {
+  list-style: none;
+}
+
+#articleDetailfoot .footerBottommenu p {
+  font-size: 16px;
+  width: 190px;
+  font-weight: normal;
+  margin: 0 0 10px;
+  letter-spacing: 0.6px;
+}
+
+#articleDetailfoot .footerBottommenu:first-child p {
+  margin-top: -22px;
+}
+
+#articleDetailfoot .footerBottommenu p a {
+  text-decoration: none;
+  color: #000066;
+  font-weight: bold;
+}
+
+#articleDetailfoot .footerBottommenu p a:hover {
+  text-decoration: underline;
+}
+
+#articleDetailfoot .footerBottommenu li {
+  font-size: 14px;
+  margin: 0 0 10px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+}
+
+#articleDetailfoot .footerBottommenu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailfoot .footerBottommenu li a:hover {
+  text-decoration: underline;
+  color: inherit;
+  padding-bottom: 1px;
+}
+
+.Netclub {
+  border-top: 1px solid #c9c9c9;
+  padding-top: 20px;
+}
+
+.Enterinfo {
+  border-top: 1px solid #c9c9c9;
+  padding-top: 10px;
+}
+
+#articleDetailfoot .footerBottommenu ul {
+  width: 190px;
+  margin-bottom: 40px;
+}
+
+#articleDetailfoot .footerBottomdetail {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 20px 0 25px;
+  position: relative;
+}
+
+#articleDetailfoot .footerBottomdetail ul {
+  position: relative;
+  width: 1060px;
+  height: 40px;
+  top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #c9c9c9;
+  list-style: none;
+  float: left;
+}
+
+#articleDetailfoot .footerBottomdetail ul li {
+  display: inline;
+}
+
+#articleDetailfoot .footerBottomdetail ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailfoot .footerBottomdetail ul li a:hover {
+  text-decoration: underline;
+}
+
+#articleDetailfoot .footerBottomdetail p:hover {
+  text-decoration: underline;
+}
+
+#articleDetailfoot .footerbottomshare ul {
+  position: relative;
+  width: 700px;
+  float: right;
+  display: flex;
+  list-style: none;
+  bottom: 60px;
+  text-align: right;
+}
+
+#articleDetailfoot .footerbottomshare ul li {
+  width: 160px;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: left;
+  letter-spacing: 0.6px;
+  font-weight: normal;
+  border-right: 1px solid #c9c9c9;
+  padding-right: 20px;
+  position: relative;
+  top: 40px;
+}
+
+#articleDetailfoot .footerbottomshare ul li:hover {
+  background: #f2f1f1;
+}
+
+#articleDetailfoot .footerbottomshare ul li a {
+  text-decoration: none;
+  color: #646161;
+}
+#articleDetailfoot .footerbottomshare ul li:last-child {
+  border-right: none;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  padding: 0px 5px 0 5px;
+  float: left;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  padding: 0px 5px 0 5px;
+  float: left;
+}
+
+.youtube {
+  width: 30px;
+  height: 30px;
+  padding: 0px 5px 0 5px;
+  float: left;
+}
+
+#articleDetailfoot .footerbottomshare ul li:after {
+  position: absolute;
+  content: "＞";
+  font-size: 3px;
+  right: 10px;
+  top: 10px;
+  color: #aaaaaa;
+}
+
+#articleDetailfoot .footerBottomright {
+  width: 100%;
+  background: #1a1a1a;
+}
+
+#articleDetailfoot .footerBottomright .Copyright {
+  width: 1060px;
+  padding: 18px 10px 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#articleDetailfoot .footerBottomright .Copyright h2,
+#articleDetailfoot .footerBottomright .Copyright p {
+  font-size: 11px;
+  font-weight: normal;
+  color: #999999;
+  letter-spacing: 0.6px;
+}
+
+#articleDetailfoot .footerBottomright .Copyright h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#articleDetailfoot .footerBottomright .Copyright h2 a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.Copyright small {
+  font-size: 12px;
+}
