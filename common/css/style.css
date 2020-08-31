@@ -496,6 +496,7 @@
 
 #articleDetailbody .mainVisualinfo {
   width: 100%;
+  position: relative;
 }
 
 #articleDetailbody .mainVisualinfo h1 {
@@ -580,7 +581,8 @@
 #articleDetailbody .mainTextbox a .mainTextlist {
   width: 230px;
   float: right;
-  position: relative;
+  position: absolute;
+  left: 200px;
 }
 
 #articleDetailbody .mainTextbox a .mainTextlist h3 {
@@ -1580,14 +1582,14 @@
 #articleDetailbody .mainScoolmessage ul li {
   margin-bottom: 30px;
   width: 490px;
-  padding: 5px;
+  padding: 6px;
   display: flex;
   box-sizing: border-box;
   font-size: 25px;
   font-weight: normal;
   line-height: 1.3;
   letter-spacing: 0.8px;
-  background: url(../images/bg_diagno.png);
+  background: url(../images/bg_diagonal.png);
 }
 
 #articleDetailbody .mainScoolmessage ul li:hover {
