@@ -556,6 +556,7 @@
 
 #articleDetailbody .mainTextbox {
   width: 650px;
+  height: 300px;
   border: solid 1px #dddddd;
   position: relative;
   margin: 0 auto;
@@ -603,20 +604,28 @@
   margin: 0 0 30px;
 }
 
-.mainread {
-  left: 100px;
-}
-#articleDetailcard .mainTextbox a .mainImage {
+#articleDetailbody .mainTextbox .mainTextlist .mainImage .Card {
   width: 164px;
   float: left;
 }
 
+.mainImage:hover {
+  opacity: 0.7;
+}
+
+.Card {
+  position: relative;
+  right: 170px;
+  bottom: 230px;
+}
 .Read {
+  position: relative;
   width: 70px;
   height: 13px;
   padding-left: 20px;
 }
-.mainread:before {
+
+.mainImage:before {
   content: "";
   display: inline-block;
   width: 15px;
@@ -627,13 +636,7 @@
   vertical-align: top;
   position: relative;
   left: 20px;
-}
-
-.Read:hover {
-  opacity: 0.7;
-}
-.Card:hover {
-  opacity: 0.7;
+  top: 5px;
 }
 
 /* ------N高の魅力------ */
