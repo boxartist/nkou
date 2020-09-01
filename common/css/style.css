@@ -1843,7 +1843,6 @@
   display: flex;
   box-sizing: border-box;
   padding: 5px;
-  background: url(../images/bg_diagno.png);
 }
 
 #articleDetailfoot .footermiddle ul li:hover {
