@@ -157,17 +157,17 @@
   align-items: center;
 }
 
-#articleDetailhead .Headerbottom-right ul {
+#articleDetailhead .Headerbottomright ul {
   list-style: none;
   float: right;
 }
 
-#articleDetailhead .Headerbottom-right ul li {
+#articleDetailhead .Headerbottomright ul li {
   display: inline-block;
   padding: 0 0 0 10px;
 }
 
-#articleDetailhead .Headerbottom-right ul li a {
+#articleDetailhead .Headerbottomright ul li a {
   text-decoration: none;
 }
 
@@ -204,11 +204,11 @@
   color: white;
 }
 
-#articleDetailhead .Headerbottom-left ul {
+#articleDetailhead .Headerbottomleft ul {
   float: left;
 }
 
-#articleDetailhead .Headerbottom-left ul li {
+#articleDetailhead .Headerbottomleft ul li {
   width: 160px;
   height: 40px;
   display: inline-block;
@@ -218,7 +218,7 @@
   letter-spacing: 2px;
 }
 
-#articleDetailhead .Headerbottom-left ul li .letter:first-child {
+#articleDetailhead .Headerbottomleft ul li .letter:first-child {
   width: 160px;
   height: 40px;
   display: inline-block;
@@ -228,16 +228,16 @@
   letter-spacing: 2px;
 }
 
-#articleDetailhead .Headerbottom-left ul li a {
+#articleDetailhead .Headerbottomleft ul li a {
   text-decoration: none;
   color: #272727;
 }
 
-#articleDetailhead .Headerbottom-left ul li:last-child {
+#articleDetailhead .Headerbottomleft ul li:last-child {
   border-right: solid 1px #dcdddd;
 }
 
-#articleDetailhead .Headerbottom-left .letter {
+#articleDetailhead .Headerbottomleft .letter {
   width: 76px;
   font-size: 6px;
   font-family: sans-serif;
@@ -246,7 +246,7 @@
   color: #dcdddd;
 }
 
-#articleDetailhead .Headerbottom-left .list {
+#articleDetailhead .Headerbottomleft .list {
   width: 76px;
   font-size: 6px;
   font-family: sans-serif;
@@ -393,14 +393,14 @@
   z-index: 1;
 }
 
-.topicpath {
+.Topicpath {
   width: 100%;
   bottom: 170px;
   margin: 0 auto;
   position: relative;
 }
 
-.topicpath ul {
+.Topicpath ul {
   width: auto;
   list-style: none;
   text-align: center;
@@ -410,7 +410,7 @@
   padding-bottom: 18px;
 }
 
-.topicpath ul li {
+.Topicpath ul li {
   list-style: none;
   display: inline-block;
   font-size: 14px;
@@ -418,24 +418,24 @@
   line-height: 1.8;
 }
 
-.topicpath ul li:last-child:before {
+.Topicpath ul li:last-child:before {
   content: "\003e";
   display: inline-block;
   padding-right: 4px;
 }
 
-.topicpath ul li a {
+.Topicpath ul li a {
   text-decoration: none;
   color: #36538d;
 }
 
-.topicpath ul li a:hover {
+.Topicpath ul li a:hover {
   text-decoration: underline;
 }
 
 /* ------メイン------ */
 
-#articleDetailbody .mainVisualtitle h2 {
+#articleDetailbody .Mainvisualtitle h2 {
   width: 1040px;
   text-align: center;
   font-family: sans-serif;
@@ -451,7 +451,7 @@
   line-height: 1.8;
 }
 
-#articleDetailbody .mainVisualtext h3 {
+#articleDetailbody .Mainvisualtext h3 {
   width: 800px;
   text-align: center;
   font-family: sans-serif;
@@ -467,7 +467,7 @@
   margin-bottom: 1em;
 }
 
-#articleDetailbody .mainVisualtext h3:before {
+#articleDetailbody .Mainvisualtext h3:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -480,7 +480,7 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainVisualtext p {
+#articleDetailbody .Mainvisualtext p {
   text-align: left;
   margin: 0 auto;
   margin-top: 43px;
@@ -494,12 +494,12 @@
 
 /* ------教育方針------ */
 
-#articleDetailbody .mainVisualinfo {
+#articleDetailbody .Mainvisualinfo {
   width: 100%;
   position: relative;
 }
 
-#articleDetailbody .mainVisualinfo h1 {
+#articleDetailbody .Mainvisualinfo h1 {
   width: 1040px;
   text-align: left;
   margin: 0 auto;
@@ -511,7 +511,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainVisualinfo h1:before {
+#articleDetailbody .Mainvisualinfo h1:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -524,13 +524,13 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainVisualinfo ul {
+#articleDetailbody .Mainvisualinfo ul {
   width: 1040px;
   margin: 50px auto 100px;
   list-style: none;
   text-align: left;
 }
-#articleDetailbody .mainVisualinfo ul span {
+#articleDetailbody .Mainvisualinfo ul span {
   font-size: 24px;
   height: 40px;
   border-right: solid 1px #272727;
@@ -539,7 +539,7 @@
   vertical-align: center;
 }
 
-#articleDetailbody .mainVisualinfo ul li {
+#articleDetailbody .Mainvisualinfo ul li {
   font-size: 19px;
   font-weight: 200;
   height: 53px;
@@ -547,7 +547,7 @@
   letter-spacing: 0.6px;
 }
 
-#articleDetailbody .mainVisualinfo .triangle {
+#articleDetailbody .Mainvisualinfo .triangle {
   position: relative;
   float: right;
   width: 630px;
@@ -555,7 +555,7 @@
   bottom: 340px;
 }
 
-#articleDetailbody .mainTextbox {
+#articleDetailbody .Maintextbox {
   width: 650px;
   height: 300px;
   border: solid 1px #dddddd;
@@ -565,27 +565,27 @@
   background: #f7f7f7;
 }
 
-#articleDetailbody .mainTextbox a {
+#articleDetailbody .Maintextbox a {
   display: block;
   padding: 10px;
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailbody .mainTextbox a:after {
+#articleDetailbody .Maintextbox a:after {
   content: "";
   clear: both;
   display: block;
 }
 
-#articleDetailbody .mainTextbox a .mainTextlist {
+#articleDetailbody .Maintextbox a .Maintextlist {
   width: 230px;
   float: right;
   position: absolute;
   left: 200px;
 }
 
-#articleDetailbody .mainTextbox a .mainTextlist h3 {
+#articleDetailbody .Maintextbox a .Maintextlist h3 {
   font-size: 22px;
   width: 423px;
   margin: 0 0 10px;
@@ -594,7 +594,7 @@
   font-weight: normal;
 }
 
-#articleDetailbody .mainTextbox .mainTextlist p {
+#articleDetailbody .Maintextbox .Maintextlist p {
   width: 423px;
   font-size: 18px;
   text-align: justify;
@@ -606,7 +606,7 @@
   margin: 0 0 30px;
 }
 
-#articleDetailbody .mainTextbox .mainTextlist .mainImage .Card {
+#articleDetailbody .Maintextbox .Maintextlist .mainImage .Card {
   width: 164px;
   float: left;
 }
@@ -627,7 +627,7 @@
   padding-left: 20px;
 }
 
-.mainImage:before {
+.Mainimage:before {
   content: "";
   display: inline-block;
   width: 15px;
@@ -643,12 +643,12 @@
 
 /* ------N高の魅力------ */
 
-#articleDetailbody .mainTextgraph {
+#articleDetailbody .Maintextgraph {
   width: 100%;
   margin-bottom: 200px;
 }
 
-#articleDetailbody .mainTextgraph h2 {
+#articleDetailbody .Maintextgraph h2 {
   width: 1040px;
   text-align: left;
   margin: 0 auto;
@@ -661,7 +661,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainTextgraph h2:before {
+#articleDetailbody .Maintextgraph h2:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -674,7 +674,7 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainTextgraph h3 {
+#articleDetailbody .Maintextgraph h3 {
   width: 490px;
   height: 115px;
   margin-left: 192.5px;
@@ -689,7 +689,7 @@
   border-bottom: solid 1px #272727;
 }
 
-#articleDetailbody .mainTextgraph p {
+#articleDetailbody .Maintextgraph p {
   width: 490px;
   height: 115px;
   padding: 0;
@@ -702,7 +702,7 @@
   font-weight: normal;
 }
 
-#articleDetailbody .mainTextgraph .small-p {
+#articleDetailbody .Maintextgraph .Small {
   font-size: 12px;
 }
 
@@ -713,11 +713,11 @@
   right: 200px;
 }
 
-#articleDetailbody .mainTextclass {
+#articleDetailbody .Maintextclass {
   margin-bottom: 200px;
   position: relative;
 }
-#articleDetailbody .mainTextclass h3 {
+#articleDetailbody .Maintextclass h3 {
   width: 490px;
   height: 115px;
   margin-left: 192.5px;
@@ -732,7 +732,7 @@
   border-bottom: solid 1px #272727;
 }
 
-#articleDetailbody .mainTextclass p {
+#articleDetailbody .Maintextclass p {
   width: 490px;
   height: 115px;
   padding: 0;
@@ -753,14 +753,14 @@
 
 /* ------メインベーシックプログラム------ */
 
-#articleDetailbody .mainBasicprogram {
+#articleDetailbody .Mainbasicprogram {
   width: 100%;
   height: 1500px;
   background: #f7f7f7;
   display: inline-block;
 }
 
-#articleDetailbody .mainBasicprogram .Programtitle h2 {
+#articleDetailbody .Mainbasicprogram .Programtitle h2 {
   width: 1040px;
   margin: 0 auto;
   display: block;
@@ -772,7 +772,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogram .Programtitle h2:after {
+#articleDetailbody .Mainbasicprogram .Programtitle h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -785,7 +785,7 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainBasicprogram p {
+#articleDetailbody .Mainbasicprogram p {
   width: 1040px;
   margin: 0 auto;
   text-align: center;
@@ -795,7 +795,7 @@
   line-height: 1.5;
 }
 
-#articleDetailbody .mainBasicprogram .Programimage {
+#articleDetailbody .Mainbasicprogram .Programimage {
   top: 100px;
   left: 200px;
   max-width: 100%;
@@ -804,7 +804,7 @@
   float: left;
 }
 
-#articleDetailbody .mainBasicprogram .Programlist {
+#articleDetailbody .Mainbasicprogram .Programlist {
   position: relative;
   width: 285px;
   height: 450px;
@@ -813,11 +813,11 @@
   right: 180px;
 }
 
-#articleDetailbody .mainBasicprogram .Programlist a {
+#articleDetailbody .Mainbasicprogram .Programlist a {
   color: inherit;
 }
 
-#articleDetailbody .mainBasicprogram .Programlist:hover {
+#articleDetailbody .Mainbasicprogram .Programlist:hover {
   opacity: 0.7;
 }
 
@@ -831,7 +831,7 @@
   padding: 5px 5px 0;
 }
 
-#articleDetailbody .mainBasicprogram .Programlist h2 {
+#articleDetailbody .Mainbasicprogram .Programlist h2 {
   position: relative;
   font-size: 22px;
   width: 285px;
@@ -842,7 +842,7 @@
   margin-bottom: 20px;
 }
 
-#articleDetailbody .mainBasicprogram .Programlist h3 {
+#articleDetailbody .Mainbasicprogram .Programlist h3 {
   position: relative;
   width: 285px;
   height: 140px;
@@ -856,7 +856,7 @@
   margin-bottom: 20px;
 }
 
-#articleDetailbody .mainBasicprogram .Programlist p {
+#articleDetailbody .Mainbasicprogram .Programlist p {
   position: relative;
   width: 285px;
   height: 57px;
@@ -883,7 +883,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogram .Programbeach {
+#articleDetailbody .Mainbasicprogram .Programbeach {
   top: 200px;
   right: 200px;
   max-width: 100%;
@@ -892,7 +892,7 @@
   float: right;
 }
 
-#articleDetailbody .mainBasicprogram .Programinfo {
+#articleDetailbody .Mainbasicprogram .Programinfo {
   position: relative;
   width: 285px;
   height: 450px;
@@ -901,11 +901,11 @@
   left: 180px;
 }
 
-#articleDetailbody .mainBasicprogram .Programinfo a {
+#articleDetailbody .Mainbasicprogram .Programinfo a {
   color: inherit;
 }
 
-#articleDetailbody .mainBasicprogram .Programinfo:hover {
+#articleDetailbody .Mainbasicprogram .Programinfo:hover {
   opacity: 0.7;
 }
 
@@ -921,7 +921,7 @@
   padding: 5px 5px 0;
 }
 
-#articleDetailbody .mainBasicprogram .Programinfo h2 {
+#articleDetailbody .Mainbasicprogram .Programinfo h2 {
   position: relative;
   font-size: 22px;
   width: 285px;
@@ -931,7 +931,7 @@
   line-height: 1.5;
 }
 
-#articleDetailbody .mainBasicprogram .Programinfo h3 {
+#articleDetailbody .Mainbasicprogram .Programinfo h3 {
   position: relative;
   width: 285px;
   font-size: 13px;
@@ -944,7 +944,7 @@
   margin-bottom: 20px;
 }
 
-#articleDetailbody .mainBasicprogram .Programinfo p {
+#articleDetailbody .Mainbasicprogram .Programinfo p {
   position: relative;
   width: 285px;
   font-size: 16px;
@@ -956,12 +956,12 @@
 
 /* ------アドバンスドプログラム------ */
 
-#articleDetailbody .mainAdvancedprogram {
+#articleDetailbody .Mainadvancedprogram {
   width: 100%;
   display: inline-block;
 }
 
-#articleDetailbody .mainAdvancedprogram .Advancedtitle h2 {
+#articleDetailbody .Mainadvancedprogram .Advancedtitle h2 {
   width: 1040px;
   display: block;
   margin: 0 auto;
@@ -973,7 +973,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainAdvancedprogram .Advancedtitle h2:after {
+#articleDetailbody .Mainadvancedprogram .Advancedtitle h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -986,7 +986,7 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainAdvancedprogram .Advancedtitle p {
+#articleDetailbody .Mainadvancedprogram .Advancedtitle p {
   width: 1040px;
   text-align: center;
   margin: 0 auto;
@@ -1115,7 +1115,7 @@
 
 /* ------メインベーシックプログラムツール------ */
 
-#articleDetailbody .mainBasicprogramtool {
+#articleDetailbody .Mainbasicprogramtool {
   width: 100%;
   height: 850px;
   background: #f7f7f7;
@@ -1125,7 +1125,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtitle h2 {
+#articleDetailbody .Mainbasicprogramtool .Programtitle h2 {
   width: 1060px;
   margin: 0 auto;
   display: block;
@@ -1137,7 +1137,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtitle h2:after {
+#articleDetailbody .Mainbasicprogramtool .Programtitle h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1150,7 +1150,7 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtool {
+#articleDetailbody .Mainbasicprogramtool .Programtool {
   top: 80px;
   right: 200px;
   max-width: 100%;
@@ -1159,7 +1159,7 @@
   float: right;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo {
   position: relative;
   width: 285px;
   height: 450px;
@@ -1168,14 +1168,14 @@
   left: 180px;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo h2 {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo h2 {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo p {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo p {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
@@ -1183,25 +1183,25 @@
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo a {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo a {
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo:hover {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo:hover {
   opacity: 0.7;
 }
 
 /* ------メインベーシックフェスティバル------ */
 
-#articleDetailbody .mainBasicprogramevent {
+#articleDetailbody .Mainbasicprogramevent {
   width: 100%;
   height: 850px;
   display: inline-block;
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programtitle h2 {
+#articleDetailbody .Mainbasicprogramevent .Programtitle h2 {
   width: 1060px;
   margin: 0 auto;
   display: block;
@@ -1213,7 +1213,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programtitle h2:after {
+#articleDetailbody .Mainbasicprogramevent .Programtitle h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1226,7 +1226,7 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programfestival {
+#articleDetailbody .Mainbasicprogramevent .Programfestival {
   top: 80px;
   left: 200px;
   max-width: 100%;
@@ -1236,7 +1236,7 @@
   margin-bottom: 300px;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programeventinfo {
+#articleDetailbody .Mainbasicprogramevent .Programeventinfo {
   position: relative;
   width: 285px;
   height: 450px;
@@ -1245,14 +1245,14 @@
   right: 180px;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programeventinfo h2 {
+#articleDetailbody .Mainbasicprogramevent .Programeventinfo h2 {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programeventinfo p {
+#articleDetailbody .Mainbasicprogramevent .Programeventinfo p {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
@@ -1260,16 +1260,16 @@
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programeventinfo a {
+#articleDetailbody .Mainbasicprogramevent .Programeventinfo a {
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailbody .mainBasicprogramevent .Programeventinfo:hover {
+#articleDetailbody .Mainbbasicprogramevent .Programeventinfo:hover {
   opacity: 0.7;
 }
 
-#articleDetailbody .mainBasicprogramtool {
+#articleDetailbody .Mainbasicprogramtool {
   width: 100%;
   height: 850px;
   background: #f7f7f7;
@@ -1279,7 +1279,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtitle h2 {
+#articleDetailbody .Mainasicprogramtool .Programtitle h2 {
   width: 1060px;
   margin: 0 auto;
   display: block;
@@ -1291,7 +1291,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtitle h2:after {
+#articleDetailbody .Mainbasicprogramtool .Programtitle h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1304,7 +1304,7 @@
   background-color: #272727;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtool {
+#articleDetailbody .Mainbasicprogramtool .Programtool {
   top: 80px;
   right: 200px;
   width: 720px;
@@ -1313,7 +1313,7 @@
   float: right;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo {
   position: relative;
   width: 285px;
   height: 450px;
@@ -1322,14 +1322,14 @@
   left: 180px;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo h2 {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo h2 {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo p {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo p {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
@@ -1337,7 +1337,7 @@
   line-height: 1.8;
 }
 
-.mainBasicprogramcourse .Programcourse {
+.Mainbasicprogramcourse .Programcourse {
   top: 80px;
   left: 200px;
   max-width: 100%;
@@ -1346,25 +1346,25 @@
   float: left;
   margin-bottom: 300px;
 }
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo a {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo a {
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailbody .mainBasicprogramtool .Programtoolinfo:hover {
+#articleDetailbody .Mainbasicprogramtool .Programtoolinfo:hover {
   opacity: 0.7;
 }
 
 /* ------メインベーシックプログラムコース------ */
 
-#articleDetailbody .mainBasicprogramenter {
+#articleDetailbody .Mainbasicprogramenter {
   background: #f7f7f7;
   height: 1400px;
   border-top: solid 1px #e2e2e2;
   border-bottom: solid 1px #e2e2e2;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programtitle h2 {
+#articleDetailbody .Mainbasicprogramenter .Programtitle h2 {
   width: 1060px;
   margin: 0 auto;
   display: block;
@@ -1376,7 +1376,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programtitle h2:after {
+#articleDetailbody .Mainbasicprogramenter .Programtitle h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1391,7 +1391,7 @@
 
 /* ------画像------ */
 
-#articleDetailbody .mainBasicprogramenter .Programenter {
+#articleDetailbody .Mainbasicprogramenter .Programenter {
   top: 80px;
   right: 200px;
   width: 720px;
@@ -1400,7 +1400,7 @@
   float: right;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programenterinfo {
+#articleDetailbody .Mainbasicprogramenter .Programenterinfo {
   position: relative;
   width: 285px;
   height: 450px;
@@ -1409,23 +1409,23 @@
   left: 180px;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programenterinfo a {
+#articleDetailbody .Mainbasicprogramenter .Programenterinfo a {
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programenterinfo:hover {
+#articleDetailbody .Mainbasicprogramenter .Programenterinfo:hover {
   opacity: 0.7;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programenterinfo h2 {
+#articleDetailbody .Mainbasicprogramenter .Programenterinfo h2 {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programenterinfo p {
+#articleDetailbody .Mainbasicprogramenter .Programenterinfo p {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
@@ -1433,7 +1433,7 @@
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programcourse {
+#articleDetailbody .Mainbasicprogramenter .Programcourse {
   top: 150px;
   left: 250px;
   width: 720px;
@@ -1442,7 +1442,7 @@
   float: left;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programcourseinfo {
+#articleDetailbody .Mainbasicprogramenter .Programcourseinfo {
   position: relative;
   width: 285px;
   height: 450px;
@@ -1452,23 +1452,23 @@
   float: right;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programcourseinfo:hover {
+#articleDetailbody .Mainbasicprogramenter .Programcourseinfo:hover {
   opacity: 0.7;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programcourseinfo a {
+#articleDetailbody .Mainbasicprogramenter .Programcourseinfo a {
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programcourseinfo h2 {
+#articleDetailbody .Mainbasicprogramenter .Programcourseinfo h2 {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
   line-height: 1.8;
 }
 
-#articleDetailbody .mainBasicprogramenter .Programcourseinfo p {
+#articleDetailbody .Mainbasicprogramenter .Programcourseinfo p {
   font-weight: normal;
   margin-bottom: 20px;
   letter-spacing: 0.6px;
@@ -1478,10 +1478,10 @@
 
 /* ------メインスクールパートナー------ */
 
-#articleDetailbody .mainSchoolpartner {
+#articleDetailbody .Mainschoolpartner {
   height: 1300px;
 }
-#articleDetailbody .mainSchoolpartner h2 {
+#articleDetailbody .Mainschoolpartner h2 {
   width: 1060px;
   margin: 0 auto;
   display: block;
@@ -1493,7 +1493,7 @@
   padding: 70px 10px 1px;
 }
 
-#articleDetailbody .mainSchoolpartner h2:after {
+#articleDetailbody .Mainschoolpartner h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1562,14 +1562,14 @@
 
 /* ------ボックス要素------ */
 
-#articleDetailbody .mainScoolmessage {
+#articleDetailbody .Mainschoolmessage {
   width: 100%;
   margin: 0 auto;
   background-color: #f7f7f7;
   border-top: solid 1px #e2e2e2;
 }
 
-#articleDetailbody .mainScoolmessage ul {
+#articleDetailbody .Mainschoolmessage ul {
   width: 1060px;
   margin: 0 auto;
   padding: 70px 0 80px;
@@ -1579,7 +1579,7 @@
   justify-content: space-between;
 }
 
-#articleDetailbody .mainScoolmessage ul li {
+#articleDetailbody .Mainschoolmessage ul li {
   margin-bottom: 30px;
   width: 490px;
   height: auto;
@@ -1597,11 +1597,11 @@
   line-height: 1.8;
 } */
 
-#articleDetailbody .mainScoolmessage ul li:hover {
+#articleDetailbody .Mainschoolmessage ul li:hover {
   opacity: 0.7;
 }
 
-#articleDetailbody .mainScoolmessage ul li a {
+#articleDetailbody .Mainschoolmessage ul li a {
   width: 490px;
   text-decoration: none;
   color: inherit;
@@ -1611,7 +1611,7 @@
   position: relative;
 }
 
-#articleDetailbody .mainScoolmessage ul li a:after {
+#articleDetailbody .Mainschoolmessage ul li a:after {
   content: "\00203A";
   position: absolute;
   font-size: 25px;
@@ -1620,23 +1620,23 @@
   margin-top: 15px;
 }
 
-#articleDetailbody .mainScoolmessage ul li:hover::after {
+#articleDetailbody .Mainschoolmessage ul li:hover::after {
   opacity: 0.7;
 }
-#articleDetailbody .mainScoolmessage ul li .detail {
+#articleDetailbody .Mainschoolmessage ul li .detail {
   width: 490px;
   font-size: 13px;
   letter-spacing: 0.6px;
 }
 
-#articleDetailfoot .footertop {
+#articleDetailfoot .Footertop {
   width: 100%;
   height: 220px;
   color: #f7f7f7;
   background: url(../images/background_just_n.png);
 }
 
-#articleDetailfoot .footertop p {
+#articleDetailfoot .Footertop p {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
@@ -1644,7 +1644,7 @@
   padding: 30px 30px;
 }
 
-#articleDetailfoot .footertop .book,
+#articleDetailfoot .Footertop .book,
 .balloon {
   width: 260px;
   height: 50px;
@@ -1663,14 +1663,14 @@
   letter-spacing: 0.6px;
 }
 
-#articleDetailfoot .footertop ul li:hover {
+#articleDetailfoot .Footertop ul li:hover {
   opacity: 0.7;
 }
-#articleDetailfoot .footertop ul li a {
+#articleDetailfoot .Footertop ul li a {
   color: inherit;
 }
 
-#articleDetailfoot .footertop .book:before {
+#articleDetailfoot .Footertop .book:before {
   content: "";
   display: inline-block;
   width: 29px;
@@ -1683,7 +1683,7 @@
   padding-right: 20px;
 }
 
-#articleDetailfoot .footertop .balloon:before {
+#articleDetailfoot .Footertop .balloon:before {
   content: "";
   display: inline-block;
   width: 29px;
@@ -1696,11 +1696,11 @@
   padding-right: 20px;
 }
 
-#articleDetailfoot .footertop li a {
+#articleDetailfoot .Footertop li a {
   text-decoration: none;
 }
 
-#articleDetailfoot .footertop ul li:after {
+#articleDetailfoot .Footertop ul li:after {
   content: "\00203A";
   position: relative;
   font-size: 25px;
@@ -1708,7 +1708,7 @@
   margin-top: 15px;
 }
 
-#articleDetailfoot .footertop .footertel {
+#articleDetailfoot .Footertop .Footertel {
   width: 250px;
   height: 60px;
   position: relative;
@@ -1717,12 +1717,12 @@
   bottom: 110px;
 }
 
-#articleDetailfoot .footertop .footertel img {
+#articleDetailfoot .Footertop .Footertel img {
   width: 250px;
   height: 28px;
 }
 
-#articleDetailfoot .footertop .footertel h2 {
+#articleDetailfoot .Footertop .Footertel h2 {
   color: #f7f7f7;
   font-size: 12px;
   padding: 0;
@@ -1731,7 +1731,7 @@
   font-weight: normal;
 }
 
-#articleDetailfoot .footertop .footertel p {
+#articleDetailfoot .Footertop .Footertel p {
   font-size: 13px;
   border: 1px solid #f7f7f7;
   width: 210px;
@@ -1744,16 +1744,16 @@
   font-weight: normal;
 }
 
-#articleDetailfoot .footertop .footertel p a {
+#articleDetailfoot .Footertop .Footertel p a {
   text-decoration: none;
   color: #f7f7f7;
 }
 
-#articleDetailfoot .footertop .footertel p a:hover {
+#articleDetailfoot .Footertop .Footertel p a:hover {
   text-decoration: underline;
 }
 
-#articleDetailfoot .footertop .footertel p a:after {
+#articleDetailfoot .Footertop .Footertel p a:after {
   content: "\00203A";
   position: absolute;
   font-size: 25px;
@@ -1761,16 +1761,16 @@
   margin-top: -10px;
 }
 
-#articleDetailfoot .footertop .footertel img:hover {
+#articleDetailfoot .Footertop .Footertel img:hover {
   opacity: 0.7;
 }
 
-#articleDetailfoot .footerNewsblog {
+#articleDetailfoot .Footernewsblog {
   width: 100%;
   display: inline-block;
 }
 
-#articleDetailfoot .footerNewsblog ul {
+#articleDetailfoot .Footernewsblog ul {
   width: 550px;
   text-align: center;
   display: flex;
@@ -1779,7 +1779,7 @@
   list-style: none;
 }
 
-#articleDetailfoot .footerNewsblog ul li {
+#articleDetailfoot .Footernewsblog ul li {
   color: #272727;
   width: 250px;
   height: auto;
@@ -1787,7 +1787,7 @@
   position: relative;
 }
 
-#articleDetailfoot .footerNewsblog ul li a {
+#articleDetailfoot .Footernewsblog ul li a {
   text-decoration: none;
   color: #272727;
   font-size: 14px;
@@ -1797,7 +1797,7 @@
   padding: 0.5em;
 }
 
-#articleDetailfoot .footerNewsblog ul li a:after {
+#articleDetailfoot .Footernewsblog ul li a:after {
   content: "\00203A";
   position: absolute;
   font-size: 25px;
@@ -1805,16 +1805,16 @@
   margin-top: -15px;
 }
 
-#articleDetailfoot .footerNewsblog ul li a:hover {
+#articleDetailfoot .Footernewsblog ul li a:hover {
   background-color: #272727;
   color: white;
 }
 
-#articleDetailfoot .footermiddle {
+#articleDetailfoot .Footermiddle {
   width: 100%;
 }
 
-#articleDetailfoot .footermiddle h2 {
+#articleDetailfoot .Footermiddle h2 {
   width: 1040px;
   font-size: 16px;
   font-weight: normal;
@@ -1826,7 +1826,7 @@
   border-top: dotted 1px #d9d9d9;
 }
 
-#articleDetailfoot .footermiddle ul {
+#articleDetailfoot .Footermiddle ul {
   width: 1040px;
   text-align: center;
   display: flex;
@@ -1836,7 +1836,7 @@
   padding-bottom: 70px;
 }
 
-#articleDetailfoot .footermiddle ul li {
+#articleDetailfoot .Footermiddle ul li {
   width: 480px;
   height: 100px;
   text-align: center;
@@ -1845,24 +1845,24 @@
   padding: 5px;
 }
 
-#articleDetailfoot .footermiddle ul li:hover {
+#articleDetailfoot .Footermiddle ul li:hover {
   opacity: 0.7;
 }
-#articleDetailfoot .footermiddle .Progressive {
+#articleDetailfoot .Footermiddle .Progressive {
   background: #ffffff;
 }
 
-#articleDetailfoot .footermiddle .Programming {
+#articleDetailfoot .Footermiddle .Programming {
   background: #ffffff;
 }
 
-#articleDetailfoot .footermiddle ul li a {
+#articleDetailfoot .Footermiddle ul li a {
   text-decoration: none;
   color: inherit;
   position: relative;
 }
 
-#articleDetailfoot .footermiddle ul li span {
+#articleDetailfoot .Footermiddle ul li span {
   display: inline-block;
   font-size: 13px;
   letter-spacing: 0.5pt;
@@ -1870,19 +1870,19 @@
   padding-bottom: 10px;
 }
 
-#articleDetailfoot .footermiddle .nkou-tyutobu {
+#articleDetailfoot .Footermiddle .Nkoutyutobu {
   padding-top: 20px;
   width: 135px;
   height: 35px;
 }
 
-#articleDetailfoot .footermiddle .code-labo {
+#articleDetailfoot .Footermiddle .Codelabo {
   padding-top: 20px;
   width: 170px;
   height: 35px;
 }
 
-#articleDetailfoot .footermiddle ul li:after {
+#articleDetailfoot .Footermiddle ul li:after {
   content: "\00203A";
   position: absolute;
   font-size: 25px;
@@ -1891,36 +1891,51 @@
   margin-top: 15px;
 }
 
-#articleDetailfoot .footerGlovalnavi {
+#articleDetailfoot .Footermiddle ul li {
+  margin-bottom: 30px;
+  width: 490px;
+  height: auto;
+  padding: 6px;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.3;
+  letter-spacing: 0.8px;
+  background: url(../images/bg_diagonal.png);
+  position: relative;
+}
+
+#articleDetailfoot .Footerglovalnavi {
   background: #f8f8f8;
   height: 1000px;
   padding-top: 60px;
 }
 
-#articleDetailfoot .footerBottomnavi ul {
+#articleDetailfoot .Footerbottomnavi ul {
   width: 1060px;
   margin: 0 auto;
   list-style: none;
 }
 
-#articleDetailfoot .footerBottomnavi ul li {
+#articleDetailfoot .Footerbottomnavi ul li {
   display: inline-block;
   border-left: solid 1px #272727;
   padding-left: 12px;
   padding-right: 12px;
 }
 
-#articleDetailfoot .footerBottomnavi ul li:first-child {
+#articleDetailfoot .Footerbottomnavi ul li:first-child {
   border-left: none;
 }
 
-#articleDetailfoot .footerBottomnavi ul li a {
+#articleDetailfoot .Footerbottomnavi ul li a {
   text-decoration: none;
   color: #000066;
   font-weight: bold;
 }
 
-#articleDetailfoot .footerBottomnavi ul li a:hover {
+#articleDetailfoot .Footerbottomnavi ul li a:hover {
   text-decoration: underline;
 }
 .pagetop {
@@ -1932,13 +1947,13 @@
   bottom: 50px;
 }
 
-#articleDetailfoot .footerBottominfo {
+#articleDetailfoot .Footerbottominfo {
   width: 1060px;
   margin: 0 auto;
   padding: 60px 10px;
 }
 
-#articleDetailfoot .footerBottommenu {
+#articleDetailfoot .Footerbottommenu {
   height: auto;
   float: left;
   margin: 0 20px 0 0;
@@ -1949,11 +1964,11 @@
   font-weight: normal;
 }
 
-#articleDetailfoot .footerBottommenu ul {
+#articleDetailfoot .Footerbottommenu ul {
   list-style: none;
 }
 
-#articleDetailfoot .footerBottommenu p {
+#articleDetailfoot .Footerbottommenu p {
   font-size: 16px;
   width: 190px;
   font-weight: normal;
@@ -1961,33 +1976,33 @@
   letter-spacing: 0.6px;
 }
 
-#articleDetailfoot .footerBottommenu:first-child p {
+#articleDetailfoot .Footerbottommenu:first-child p {
   margin-top: -22px;
 }
 
-#articleDetailfoot .footerBottommenu p a {
+#articleDetailfoot .Footerbottommenu p a {
   text-decoration: none;
   color: #000066;
   font-weight: bold;
 }
 
-#articleDetailfoot .footerBottommenu p a:hover {
+#articleDetailfoot .Footerbottommenu p a:hover {
   text-decoration: underline;
 }
 
-#articleDetailfoot .footerBottommenu li {
+#articleDetailfoot .Footerbottommenu li {
   font-size: 14px;
   margin: 0 0 10px;
   line-height: 1.5;
   letter-spacing: 0.6px;
 }
 
-#articleDetailfoot .footerBottommenu li a {
+#articleDetailfoot .Footerbottommenu li a {
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailfoot .footerBottommenu li a:hover {
+#articleDetailfoot .Footerbottommenu li a:hover {
   text-decoration: underline;
   color: inherit;
   padding-bottom: 1px;
@@ -2003,19 +2018,19 @@
   padding-top: 10px;
 }
 
-#articleDetailfoot .footerBottommenu ul {
+#articleDetailfoot .Footerbottommenu ul {
   width: 190px;
   margin-bottom: 40px;
 }
 
-#articleDetailfoot .footerBottomdetail {
+#articleDetailfoot .Footerbottomdetail {
   width: 1060px;
   margin: 0 auto;
   padding: 20px 0 25px;
   position: relative;
 }
 
-#articleDetailfoot .footerBottomdetail ul {
+#articleDetailfoot .Footerbottomdetail ul {
   position: relative;
   width: 1060px;
   height: 40px;
@@ -2026,25 +2041,25 @@
   float: left;
 }
 
-#articleDetailfoot .footerBottomdetail ul li {
+#articleDetailfoot .Footerbottomdetail ul li {
   display: inline;
 }
 
-#articleDetailfoot .footerBottomdetail ul li a {
+#articleDetailfoot .Footerbottomdetail ul li a {
   font-size: 14px;
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailfoot .footerBottomdetail ul li a:hover {
+#articleDetailfoot .Footerbottomdetail ul li a:hover {
   text-decoration: underline;
 }
 
-#articleDetailfoot .footerBottomdetail p:hover {
+#articleDetailfoot .Footerbottomdetail p:hover {
   text-decoration: underline;
 }
 
-#articleDetailfoot .footerbottomshare ul {
+#articleDetailfoot .Footerbottomshare ul {
   position: relative;
   width: 700px;
   float: right;
@@ -2054,7 +2069,7 @@
   text-align: right;
 }
 
-#articleDetailfoot .footerbottomshare ul li {
+#articleDetailfoot .Footerbottomshare ul li {
   width: 160px;
   font-size: 12px;
   line-height: 1.3;
@@ -2067,15 +2082,15 @@
   top: 40px;
 }
 
-#articleDetailfoot .footerbottomshare ul li:hover {
+#articleDetailfoot .Footerbottomshare ul li:hover {
   background: #f2f1f1;
 }
 
-#articleDetailfoot .footerbottomshare ul li a {
+#articleDetailfoot .Footerbottomshare ul li a {
   text-decoration: none;
   color: #646161;
 }
-#articleDetailfoot .footerbottomshare ul li:last-child {
+#articleDetailfoot .Footerbottomshare ul li:last-child {
   border-right: none;
 }
 
@@ -2100,7 +2115,7 @@
   float: left;
 }
 
-#articleDetailfoot .footerbottomshare ul li:after {
+#articleDetailfoot .Footerbottomshare ul li:after {
   position: absolute;
   content: "＞";
   font-size: 3px;
@@ -2109,12 +2124,12 @@
   color: #aaaaaa;
 }
 
-#articleDetailfoot .footerBottomright {
+#articleDetailfoot .Footerbottomright {
   width: 100%;
   background: #1a1a1a;
 }
 
-#articleDetailfoot .footerBottomright .Copyright {
+#articleDetailfoot .Footerbottomright .Copyright {
   width: 1060px;
   padding: 18px 10px 16px;
   margin: 0 auto;
@@ -2122,20 +2137,20 @@
   justify-content: space-between;
 }
 
-#articleDetailfoot .footerBottomright .Copyright h2,
-#articleDetailfoot .footerBottomright .Copyright p {
+#articleDetailfoot .Footerbottomright .Copyright h2,
+#articleDetailfoot .Footerbottomright .Copyright p {
   font-size: 11px;
   font-weight: normal;
   color: #999999;
   letter-spacing: 0.6px;
 }
 
-#articleDetailfoot .footerBottomright .Copyright h2 a {
+#articleDetailfoot .Footerbottomright .Copyright h2 a {
   text-decoration: none;
   color: inherit;
 }
 
-#articleDetailfoot .footerBottomright .Copyright h2 a:hover {
+#articleDetailfoot .Footerbottomright .Copyright h2 a:hover {
   text-decoration: underline;
   color: inherit;
 }
