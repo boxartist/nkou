@@ -1546,7 +1546,12 @@
 }
 
 #article-foot .footer-top ul {
-  position: absolute;
+  position: relative;
+}
+
+#article-foot .footer-top ul li {
+  position: relative;
+
 }
 
 #article-foot .footer-top .book,
@@ -1555,14 +1560,14 @@
   height: 50px;
   color: #272727;
   font-size: 18px;
-  /* text-align: center; */
   line-height: 0.8;
   padding: 14px 24px 9px 18px;
   border: 1px solid #272727;
   background-color: #f7f7f7;
   vertical-align: center;
   box-sizing: border-box;
-  margin-left: 430px;
+  right: 120px;
+  margin: 0 auto;
   margin-bottom: 10px;
   list-style: none;
   letter-spacing: 0.6px;
@@ -1609,7 +1614,7 @@
   content: "\00203A";
   position: relative;
   font-size: 25px;
-  right: -20px;
+  right: -40px;
   margin-top: 15px;
 }
 
@@ -1617,8 +1622,9 @@
   width: 250px;
   height: 60px;
   position: relative;
-  float: right;
-  right: 430px;
+  margin: 0 auto;
+  left: 150px;
+  bottom: 115px;
 }
 
 #article-foot .footer-top .footer-tel img {
