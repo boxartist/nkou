@@ -616,7 +616,7 @@
   float: left;
 }
 
-.main-image:hover {
+.text-list .main-image:hover {
   opacity: 0.7;
 }
 
@@ -899,7 +899,7 @@
 }
 
 #article-body .basic-program .program-info {
-  position: absolute;
+  position: relative;
   width: 285px;
   height: 450px;
   top: 900px;
@@ -1191,12 +1191,12 @@
   width: 720px;
   height: 500px;
   left: 200px;
-  position: absolute;
+  position: relative;
   float: right;
 }
 
 #article-body .tool-image .program-info {
-  position: absolute;
+  position: relative;
   width: 285px;
   height: 450px;
   top: 150px;
@@ -1545,13 +1545,17 @@
   padding: 30px 30px;
 }
 
+#article-foot .footer-top ul {
+  position: absolute;
+}
+
 #article-foot .footer-top .book,
 .balloon {
   width: 260px;
   height: 50px;
   color: #272727;
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
   line-height: 0.8;
   padding: 14px 24px 9px 18px;
   border: 1px solid #272727;
@@ -1615,7 +1619,6 @@
   position: relative;
   float: right;
   right: 430px;
-  bottom: 110px;
 }
 
 #article-foot .footer-top .footer-tel img {
