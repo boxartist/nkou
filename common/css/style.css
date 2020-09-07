@@ -616,7 +616,7 @@
   float: left;
 }
 
-.text-list .main-image:hover {
+.text-box:hover {
   opacity: 0.7;
 }
 
@@ -759,74 +759,6 @@
 
 /* ------メインベーシックプログラム------ */
 
-#article-body .basic-program {
-  width: 100%;
-  height: 1500px;
-  background: #f7f7f7;
-  display: inline-block;
-  position: relative;
-}
-
-#article-body .basic-program .program-title h2 {
-  width: 1040px;
-  margin: 0 auto;
-  display: block;
-  font-size: 33px;
-  padding: 70px 10px 10px;
-  text-align: center;
-  font-weight: normal;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-#article-body .basic-program .program-title h2:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -5%;
-  display: inline-block;
-  width: 200px;
-  height: 1px;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: #272727;
-}
-
-#article-body .basic-program p {
-  width: 1040px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 16px;
-  font-weight: normal;
-  letter-spacing: 0.2em;
-  line-height: 1.5;
-}
-
-#article-body .basic-program .program-image {
-  top: 100px;
-  left: 200px;
-  width: 490px;
-  height: 500px;
-  position: relative;
-}
-
-#article-body .basic-program .program-list {
-  position: absolute;
-  width: 285px;
-  height: 450px;
-  float: right;
-  top: 300px;
-  right: 180px;
-}
-
-#article-body .basic-program .program-list a {
-  color: inherit;
-}
-
-#article-body .basic-program .program-list:hover {
-  opacity: 0.7;
-}
-
 .program-button {
   border: 1px solid #272727;
   width: 80px;
@@ -835,42 +767,6 @@
   position: relative;
   margin-bottom: 20px;
   padding: 5px 5px 0;
-}
-
-#article-body .basic-program .program-list h2 {
-  position: relative;
-  font-size: 22px;
-  width: 285px;
-  height: 117px;
-  float: right;
-  font-weight: normal;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-#article-body .basic-program .program-list h3 {
-  position: relative;
-  width: 285px;
-  height: 140px;
-  font-size: 16px;
-  float: right;
-  font-weight: normal;
-  letter-spacing: 0.6px;
-  line-height: 1.8;
-  text-align: left;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-#article-body .basic-program .program-list p {
-  position: relative;
-  width: 285px;
-  height: 57px;
-  font-size: 8px;
-  float: right;
-  font-weight: normal;
-  text-align: left;
-  margin-bottom: 20px;
 }
 
 .read-more {
@@ -889,81 +785,29 @@
   position: relative;
 }
 
-#article-body .basic-program .program-beach {
-  top: 200px;
-  right: 200px;
-  max-width: 100%;
-  height: 500px;
-  position: relative;
-  float: right;
+
+#article-body .basic-program {
+  width: 100%;
+  height: 1450px;
+  background: #f7f7f7;
+  display: inline-block;
 }
-
-#article-body .basic-program .program-info {
-  position: relative;
-  width: 285px;
-  height: 450px;
-  top: 900px;
-  left: 180px;
-}
-
-#article-body .basic-program .program-info a {
-  color: inherit;
-}
-
-#article-body .basic-program .program-info:hover {
-  opacity: 0.7;
-}
-
-/* ------ベーシックプログラム画像------ */
-
-.program-button {
-  border: 1px solid #272727;
-  width: 80px;
-  height: 14px;
-  background: #1c1c1c;
-  position: relative;
-  margin-bottom: 20px;
-  padding: 5px 5px 0;
-}
-
-#article-body .basic-program .program-info h2 {
-  position: relative;
-  font-size: 22px;
-  width: 285px;
-  height: 117px;
-  float: left;
-  font-weight: normal;
-  line-height: 1.5;
-}
-
-#article-body .basic-program .program-info h3 {
-  position: relative;
-  width: 285px;
-  font-size: 13px;
-  float: left;
-  font-weight: normal;
-  letter-spacing: 0.6px;
-  line-height: 1.8;
-  text-align: left;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-#article-body .basic-program .program-info p {
-  position: relative;
-  width: 285px;
-  font-size: 16px;
-  float: left;
-  font-weight: normal;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-/* ------アドバンスドプログラム------ */
 
 #article-body .advanced-program {
   width: 100%;
   display: inline-block;
+}
+
+#article-body .basic-program .basic-title h2 {
+  width: 1040px;
+  display: block;
+  margin: 0 auto;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 #article-body .advanced-program .advanced-title h2 {
@@ -978,6 +822,19 @@
   position: relative;
 }
 
+#article-body .basic-program .basic-title h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
 #article-body .advanced-program .advanced-title h2:after {
   content: "";
   position: absolute;
@@ -989,6 +846,56 @@
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: #272727;
+}
+
+#article-body .class-image .advanced-list h3 {
+  position: relative;
+  width: 285px;
+  font-size: 16px;
+  float: left;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#article-body .class-image .basic-list p {
+  position: relative;
+  width: 285px;
+  font-size: 6px;
+  float: left;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#article-body .class-image .advanced-list p {
+  position: relative;
+  width: 285px;
+  /* font-size: 6px; */
+  float: left;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#article-body .basic-program .basic-title p {
+  width: 1040px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+  margin-bottom: 60px;
 }
 
 #article-body .advanced-program .advanced-title p {
@@ -1055,6 +962,24 @@
   letter-spacing: 0.6px;
   margin-bottom: 20px;
   line-height: 1.8;
+}
+
+#article-body .advanced-image .advanced-list h4 {
+  font-size: 6px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#article-body .advanced-image .advanced-test h3 {
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
 #article-body .advanced-image .advanced-list p {
@@ -1141,7 +1066,6 @@
   display: inline-block;
   position: relative;
 }
-
 
 #article-body .basic-tool .program-title h2 {
   width: 1060px;
@@ -1373,7 +1297,7 @@
   line-height: 1.8;
   font-size: 22px;
 }
-/* gfsgsa */
+
 #article-body .basic-tool .program-info p {
   font-weight: normal;
   margin-bottom: 20px;
@@ -1393,7 +1317,6 @@
 }
 
 /* ------メインスクールパートナー------ */
-
 
 #article-body .main-partner h2:after {
   content: "";
