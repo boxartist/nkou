@@ -570,27 +570,28 @@
   background: #f7f7f7;
 }
 
-#article-body .text-box a {
+#article-body .text-box {
   display: block;
   padding: 10px;
   text-decoration: none;
   color: inherit;
 }
 
-#article-body .text-box a:after {
+#article-body .text-box :after {
   content: "";
   clear: both;
   display: block;
 }
 
-#article-body .text-box a .text-list {
+#article-body .text-box .text-list {
   width: 230px;
   float: right;
   position: absolute;
+  top:30px;
   left: 200px;
 }
 
-#article-body .text-box a .text-list h3 {
+#article-body .text-box .text-list h3 {
   font-size: 22px;
   width: 423px;
   margin: 0 0 10px;
@@ -611,12 +612,11 @@
   margin: 0 0 30px;
 }
 
-#article-body .text-box .text-list .main-image .card {
-  width: 164px;
-  float: left;
+.text-list:hover .main-image { 
+  opacity:0.7 
 }
 
-.text-box:hover {
+.text-list .main-image:hover {
   opacity: 0.7;
 }
 
@@ -625,6 +625,7 @@
   right: 170px;
   bottom: 230px;
 }
+
 .read {
   position: relative;
   width: 70px;
