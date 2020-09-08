@@ -577,6 +577,10 @@
   color: inherit;
 }
 
+#article-body .text-box a {
+  color: inherit;
+}
+
 #article-body .text-box :after {
   content: "";
   clear: both;
