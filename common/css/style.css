@@ -15,6 +15,7 @@
 
 #article-head .header-top .header-menu {
   max-width: 1040px;
+  height: 32px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
