@@ -256,7 +256,7 @@
   color: #1f286f;
 }
 
-#article-head .header-bottomleft ul li .letter:hover {
+#article-head .header-bottomleft ul li:hover .letter{
   color: #1f286f;
 }
 
