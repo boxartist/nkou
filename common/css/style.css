@@ -290,20 +290,6 @@
 
 /* ------吹き出し------ */
 
-/* #article-head .header-schoolnavi .header-navi:before {
-  content: "";
-  position: absolute;
-  margin: 0 auto;
-  left: 270px;
-  top: -7px;
-  display: block;
-  width: 0;
-  height: 0;
-  border-right: 5px solid transparent;
-  border-bottom: 7px solid #181836;
-  border-left: 5px solid transparent;
-} */
-
 #article-head .header-schoolnavi .header-navi ul {
   max-width: 1040px;
   margin: 0 auto;
@@ -1974,8 +1960,8 @@
 
 #article-foot .footer-share ul li:after {
   position: absolute;
-  content: "＞";
-  font-size: 3px;
+  content: "\003e";
+  font-size: 15px;
   right: 10px;
   top: 10px;
   color: #aaaaaa;
