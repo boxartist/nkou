@@ -957,7 +957,7 @@
   height: 14px;
   background: #1c1c1c;
   position: relative;
-  padding: 3px 10px;
+  padding: 10px 10px 2px;
   margin-bottom: 20px;
 }
 
@@ -1024,15 +1024,6 @@
 
 #article-body .advanced-image .advanced-test:hover {
   opacity: 0.7;
-}
-
-.advanced {
-  width: 100px;
-  height: 14px;
-  background: #1c1c1c;
-  position: relative;
-  padding: 3px 10px;
-  margin-bottom: 20px;
 }
 
 #article-body .advanced-image .advanced-test h2 {
