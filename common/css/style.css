@@ -269,7 +269,7 @@
   border-left: 5px solid transparent;
 }
 
-#article-head .header-bottomleft ul li:hover .letter{
+#article-head .header-bottomleft ul li:hover .letter {
   color: #1f286f;
 }
 
@@ -591,7 +591,7 @@
   width: 230px;
   float: right;
   position: absolute;
-  top:30px;
+  top: 30px;
   left: 200px;
 }
 
@@ -616,8 +616,8 @@
   margin: 0 0 30px;
 }
 
-.text-list:hover .main-image { 
-  opacity:0.7 
+.text-list:hover .main-image {
+  opacity: 0.7;
 }
 
 .text-list .main-image:hover {
@@ -790,7 +790,6 @@
   position: relative;
 }
 
-
 #article-body .basic-program {
   width: 100%;
   height: 1450px;
@@ -882,7 +881,6 @@
 #article-body .class-image .advanced-list p {
   position: relative;
   width: 285px;
-  /* font-size: 6px; */
   float: left;
   font-weight: normal;
   letter-spacing: 0.6px;
@@ -1047,9 +1045,11 @@
 
 #article-body .basic-tool {
   width: 100%;
-  height: 850px;
+  height: 800px;
+  margin: 0 auto;
   background: #f7f7f7;
   display: inline-block;
+  margin-top: -200px;
   border-top: solid 1px #e2e2e2;
   border-bottom: solid 1px #e2e2e2;
   position: relative;
@@ -1058,13 +1058,21 @@
 #article-body .basic-event {
   width: 100%;
   height: 850px;
-  margin-top: 200px;
+  margin-top: 100px;
+  display: inline-block;
+  position: relative;
+}
+
+#article-body .club-event {
+  width: 100%;
+  height: 800px;
+  margin-top: 250px;
   display: inline-block;
   position: relative;
 }
 
 #article-body .basic-tool .program-title h2 {
-  width: 1060px;
+  width: 1040px;
   margin: 0 auto;
   display: block;
   font-size: 33px;
@@ -1088,7 +1096,33 @@
   position: relative;
 }
 
+#article-body .club-event .program-title h2 {
+  width: 1060px;
+  margin: 0 auto;
+  display: block;
+  font-size: 33px;
+  padding: 70px 10px 10px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
 #article-body .basic-event .program-title h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #272727;
+}
+
+#article-body .club-event .program-title h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1117,7 +1151,7 @@
 
 #article-body .tool-image .program-info {
   position: relative;
-  width: 285px;
+  width: auto;
   height: 450px;
   top: 150px;
   float: left;
@@ -1149,24 +1183,19 @@
 
 /* ------メインベーシックフェスティバル------ */
 
-#article-body .basic-event .program-title h2:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -5%;
-  display: inline-block;
-  width: 200px;
-  height: 1px;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: #272727;
-}
-
 #article-body .basic-event .program-festival {
-  left: 200px;
   height: 500px;
   position: relative;
   float: left;
+  top: 50px;
+  margin-bottom: 100px;
+}
+
+#article-body .club-event .program-festival {
+  height: 500px;
+  position: relative;
+  float: left;
+  top: 50px;
   margin-bottom: 100px;
 }
 
@@ -1181,11 +1210,20 @@
   position: relative;
   width: 285px;
   height: 450px;
-  left: 200px;
+  top: 50px;
+  text-align: left;
   float: right;
 }
 
 #article-body .basic-event .festival-info h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+#article-body .club-event .festival-info h2 {
   font-size: 22px;
   font-weight: normal;
   margin-bottom: 20px;
@@ -1211,7 +1249,21 @@
   font-size: 16px;
 }
 
+#article-body .club-event .festival-info p {
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
 #article-body .basic-event .program-info a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#article-body .club-event .program-info a {
   text-decoration: none;
   color: inherit;
 }
@@ -1221,26 +1273,28 @@
   color: inherit;
 }
 
+#article-body .club-event .festival-info a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #article-body .basic-event .program-info:hover {
   opacity: 0.7;
 }
+
 #article-body .basic-event .festival-info:hover {
   opacity: 0.7;
 }
 
-#article-body .basic-tool {
-  width: 100%;
-  height: 850px;
-  background: #f7f7f7;
-  display: inline-block;
-  border-top: solid 1px #e2e2e2;
-  border-bottom: solid 1px #e2e2e2;
-  position: relative;
+#article-body .club-event .festival-info:hover {
+  opacity: 0.7;
 }
+
+/* aaaa---------- */
 
 #article-body .basic-enter {
   width: 100%;
-  height: 1500px;
+  height: 1400px;
   display: inline-block;
   border-top: solid 1px #e2e2e2;
   border-bottom: solid 1px #e2e2e2;
@@ -1250,13 +1304,31 @@
 
 #article-body .basic-goal {
   width: 100%;
+  margin: 0 auto;
   height: 1350px;
   top: 100px;
   display: inline-block;
   position: relative;
 }
 
-#article-body .basic-tool .program-title h2:after {
+#article-body .basic-tool {
+  width: 100%;
+  margin: 0 auto;
+  height: 850px;
+  background: #f7f7f7;
+  text-align: center;
+  border-top: solid 1px #e2e2e2;
+  border-bottom: solid 1px #e2e2e2;
+  position: relative;
+}
+
+#article-body .basic-tool .program-title h2 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#article-body .basic-tool .class-image .program-title h2:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1270,20 +1342,17 @@
 }
 
 #article-body .basic-tool .program-tool {
-  right: 200px;
-  width: 720px;
+  width: 1040px;
   height: 500px;
   position: relative;
   float: right;
 }
 
 #article-body .basic-tool .program-info {
-  position: relative;
+  position: absolute;
   width: 285px;
   height: 450px;
-  margin-right: auto;
   top: 100px;
-  left: 150px;
 }
 
 #article-body .basic-tool .program-info h2 {
@@ -1292,6 +1361,7 @@
   letter-spacing: 0.6px;
   line-height: 1.8;
   font-size: 22px;
+  text-align: left;
 }
 
 #article-body .basic-tool .program-info p {
@@ -1470,7 +1540,6 @@
 
 #article-foot .footer-top ul li {
   position: relative;
-
 }
 
 #article-foot .footer-top .book,
