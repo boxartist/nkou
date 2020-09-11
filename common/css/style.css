@@ -616,6 +616,10 @@
   margin: 0 0 30px;
 }
 
+.text-list .main-image {
+  position: relative;
+}
+
 .text-list:hover .main-image {
   opacity: 0.7;
 }
@@ -625,9 +629,9 @@
 }
 
 .card {
-  position: relative;
-  right: 170px;
-  bottom: 230px;
+  position: absolute;
+  right: 240px; 
+  bottom: -40px;
 }
 
 .read {
