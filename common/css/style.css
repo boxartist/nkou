@@ -1474,6 +1474,7 @@
   margin-bottom: 30px;
   width: 490px;
   height: auto;
+  text-align: left;
   padding: 6px;
   display: flex;
   box-sizing: border-box;
@@ -1492,7 +1493,8 @@
   width: 490px;
   text-decoration: none;
   color: inherit;
-  padding: 40px 40px 10px 30px;
+  padding: 20px 40px 10px 30px;
+  line-height: 1.3;
   background-color: #ffffff;
   align-items: center;
   position: relative;
